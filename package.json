@@ -1,0 +1,30 @@
+{
+  "name": "qs360ke",
+  "version": "1.0.0",
+  "description": "Atelier QS quantity surveying portfolio and API",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "node --watch backend/server.js",
+    "start": "node backend/server.js",
+    "check": "node --check backend/server.js && node --check frontend/public/index.js",
+    "format": "npx prettier --write \"frontend/public/**/*.{html,css,js}\" \"backend/**/*.js\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisera123/qs360ke.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kisera123/qs360ke/issues"
+  },
+  "homepage": "https://github.com/kisera123/qs360ke#readme"
+}
