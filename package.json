@@ -1,7 +1,7 @@
 {
   "name": "qs360ke",
   "version": "1.0.0",
-  "description": "Atelier QS quantity surveying portfolio and API",
+  "description": "QS360KE quantity surveying portfolio and API",
   "main": "backend/server.js",
   "scripts": {
     "dev": "node --watch backend/server.js",

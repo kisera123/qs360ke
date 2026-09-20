@@ -2,7 +2,7 @@
   "name": "qs360ke-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "API for the Atelier QS quantity surveying frontend",
+  "description": "API for the QS360KE quantity surveying frontend",
   "main": "server.js",
   "scripts": {
     "dev": "node --watch server.js",

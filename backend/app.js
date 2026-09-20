@@ -22,7 +22,7 @@ app.use(express.json({ limit: '100kb' }));
 app.use(requestLogger);
 
 app.get('/api', (_request, response) => {
-  response.json({ name: 'Atelier QS API', version: '1.0.0', docs: '/api/health' });
+  response.json({ name: 'QS360KE API', version: '1.0.0', docs: '/api/health' });
 });
 app.use('/api/health', healthRoutes);
 app.use('/api/content', contentRoutes);

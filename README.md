@@ -1,6 +1,6 @@
 # QS360KE
 
-Atelier QS quantity surveying portfolio, learning resources, and API.
+QS360KE quantity surveying portfolio, learning resources, and API.
 
 ## Run From The Repository Root
 
